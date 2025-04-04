@@ -1,0 +1,2 @@
+#!/bin/bash
+java -jar ./build/libs/kotlin_declarations_printer-1.0-SNAPSHOT.jar "$@"
