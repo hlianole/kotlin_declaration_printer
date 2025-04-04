@@ -3,8 +3,11 @@ Project that allows to print all public declarations from Kotlin file/folder wit
 
 # Project structure
 `/src/main/kotlin/`: Project source code
+
 `/build.gradle.kts`: Configuration of gradle build
+
 `/build/dist/`: Folder with executable file
+
 `/solution`: Bash script to simplify usage
 
 # Usage
