@@ -1,7 +1,7 @@
 # kotlin_declaration_printer
 Project that allows to print all public declarations from Kotlin file/folder with Kotlin files
 
-# Project structure
+## Project structure
 `/src/main/kotlin/`: Project source code
 
 `/build.gradle.kts`: Configuration of gradle build
@@ -10,7 +10,7 @@ Project that allows to print all public declarations from Kotlin file/folder wit
 
 `/solution`: Bash script to simplify usage
 
-# Usage
+## Usage
 In root folder
 ```
 ./gradlew clean build
@@ -22,6 +22,6 @@ chmod +x solution
 ./solution <path-to-file-or-folder>
 ```
 
-# Dependencies
+## Dependencies
 `org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.0`: For Kotlin code analyzing
 `org.jetbrains.kotlin:kotlin-stdlib`: Kotlin standart library
